@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+  <link rel="stylesheet" href="C:\xampp\htdocs\Projeto GameStuff\fonts\satoshi.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Stuff</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="title-wrapper">
+        <h1 class="title-large">Game Stuff</h1>
+      </div>
+      
+      <div class="icons-wrapper">
+        <a href="#" onclick="window.location.href='register.php';" class="login-link"><i class="fas fa-user"></i></a>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="site.html">Página Inicial</a></li>
+        <li><a href="people.html">Quem Somos</a></li>
+        <li><a href="cart.html">Loja</a></li>
+      </ul>
+    </nav>
+    
+    <img src="imagens/nintendo switch.jpg" alt="nintendo Inicial" height="600px" width=90%">
+  </header>
+  
+  <section id="images">
+    <div class="image-container">
+      <img style="height: 500px;" ;" src="image/detroit.png" alt="Imagem do Jogo 1">
+      <div class="overlay">
+        <h3 class="overlay-title">Detroit Become Human</h3>
+        <p class="overlay-description">PS4</p>
+        <a href="cart.html" class="overlay-link">Saiba Mais</a>
+      </div>
+    </div>
+    <div class="image-container">
+      <img style="height: 500px;" ;" src="image/Ratchet.png" alt="Imagem do Jogo 2">
+      <div class="overlay">
+        <h3 class="overlay-title">Ratchet & Clank</h3>
+        <p class="overlay-description">PS4</p>
+        <a href="cart.html" class="overlay-link">Saiba Mais</a>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="image/Terraria.png" alt="Imagem do Jogo 3">
+      <div class="overlay">
+        <h3 class="overlay-title">Terraria</h3>
+        <p class="overlay-description">Nintendo Switch</p>
+        <a href="cart.html" class="overlay-link">Saiba Mais</a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="offers">
+    <h2 class="section-title">Ofertas Exclusivas</h2>
+    <ul class="offers-list">
+      <img src="imagens/Consolas.png" alt="Oferta Consolas"></img>
+      <img src="imagens/Produtos.png" alt="Oferta Produtos"></img>
+    </ul>
+  </section>
+  
+  <section id="brands">
+    <h2 class="section-title">Marcas</h2>
+    <p><h3 style="font-size: 30px;">Trabalhando Juntos</h3></p>
+    <p style="font-weight: bold;">O Game Stuff é conhecido por oferecer apenas o melhor do mundo dos jogos. Encontras de tudo por aqui, desde versões remasterizadas até títulos indie exclusivos que não encontrarás em mais lado nenhum. Navega pela lista abaixo para ver o que temos em matéria de jogos.</p>
+    <ul class="brands-list">
+      <li><h1 style="font-size: 40px;">Polar</h1></li>
+      <img src="imagens/Polar.png" alt="Marca 1" style="width: 600px;"></img>
+      <li><h3 style="font-size: 30px;">Qualidade Excecional </h3></li>
+      <li style="font-weight: bold;">Para jogadores como nós, trabalhar com Polar é a realização de um sonho. Somos os primeiros a conhecer novos lançamentos e oferecer produtos altamente exclusivos, por isso nossos clientes sempre voltam para conferir as novidades!</li>
+      <li><h1 style="font-size: 40px;">Itaka</h1></li>
+      <img src="imagens/Itaka.png" alt="Marca 2" style="width: 600px;"></img>
+      <li><h3 style="font-size: 30px;">Donos do Jogo</h3></li>
+      <li style="font-weight: bold;">Itaka é líder na indústria de jogos, destacando-se por seu design e gráficos de ponta. Estamos orgulhosos de tê-lo(a) conosco desde a abertura da nossa loja, e somos sempre os primeiros a oferecer seus produtos mais recentes.</li>
+      <li><h1 style="font-size: 40px;">Hexa</h1></li>
+      <img src="imagens/Hexa.png" alt=Marca 3" style="width: 600px;""></img>
+      <li><h3 style="font-size: 30px;">Top dos Tops</h3></li>
+      <li style="font-weight: bold;">Hexa literalmente transforma o mundo dos jogos, redefinindo a indústria como a conhecemos. Muitos de nossos clientes são seguidores dedicados desde o início, como uma pequena marca indie, e é uma honra fazer essa parceria.</li>
+      
+  </section>
+  
+  <section id="contact" class="contactos">
+    <h2 class="section-title">Fale Conosco</h2>
+    <p>Caminho do Birimbau nº319</p>
+    <p>Entre em contato conosco pelo email:</p>
+    <p>guilherme.candeias@ubi.pt ou rodolfo.moreira@ubi.pt</p>
+    <p>967676721</p>
+    <div id="map">
+      <script>
+        // Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: 40.277288, lng: -7.509689 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 18,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+
+window.initMap = initMap;
+      </script>
+      
+    </div>
+    
+  </section>
+  
+
+  
+  <footer>
+    <p>©2023 por Game Stuff</p>
+  </footer>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX4WtVX37rcx9kyfYlxMhMT0hl8hbY-_I&callback=initMap&v=weekly"
+      defer
+    ></script>
+    
+</body>
+</html>
